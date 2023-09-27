@@ -15,6 +15,10 @@ public class AddressBook {
         buddyInfoList.remove(buddyInfo);
     }
 
+    public void buddyListSize(){
+        System.out.println(buddyInfoList.size());
+    }
+
     public static void main(String[] args) {
         System.out.println("Address Book");
 
@@ -25,6 +29,7 @@ public class AddressBook {
         addressBook.addBuddy(buddy2);
         addressBook.removeBuddy(buddy);
         addressBook.removeBuddy(buddy2);
+        addressBook.buddyListSize();
 
     }
 
